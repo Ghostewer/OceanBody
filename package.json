@@ -1,0 +1,21 @@
+{
+  "name": "oceanbody",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000O\u0000c\u0000e\u0000a\u0000n\u0000B\u0000o\u0000d\u0000y\u0000\r\u0000 \u0000",
+  "main": "earth.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^5.5.1",
+    "echarts-gl": "^2.0.9"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16",
+    "vite": "^5.4.11"
+  }
+}

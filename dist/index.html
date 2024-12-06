@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanBody - Globe et Corps Humain</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" crossorigin src="/assets/index-DkHvQSE2.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/echarts-DgUs46N4.js">
+</head>
+<body class="bg-black flex max-h-screen text-white relative h-screen overflow-hidden">
+    <!-- Conteneur pour le globe en arrière-plan -->
+    <!-- <span>Survoler les différentes parties</span> -->
+    <div id="globe-background" class="absolute inset-0 z-0"></div>
+
+    <!-- Conteneur pour le corps humain à gauche -->
+    <div id="human" class="ml-10 my-auto rounded-md bg-slate-900 left-0 top-0 w-1/4 min-h-[70vh] max-h-[90vh] flex justify-center items-center z-10">
+        <!-- Le diagramme SVG du corps humain sera rendu ici -->
+    </div>
+
+    <!-- Contenu principal au-dessus des autres éléments -->
+    <div id="div_start" class="relative z-20 flex flex-col items-center justify-center w-full h-full">
+        <h1 class="text-4xl font-bold">Bienvenue sur OceanBody</h1>
+        <p class="text-lg mt-4">Découvrez les connexions fascinantes entre le corps humain et l'océan.</p>
+        <button id="start" class="mt-4 bg-slate-700 py-2 px-4 rounded-full">Découvrir</button>
+    </div>
+    <div id="div_medium" class="absolute flex flex-col z-5 items-center justify-center w-full h-full">
+        <p class="text-xl">Survolez les organes pour les informations</p>
+    </div>
+    <div id="name" class="absolute flex flex-col z-5 items-center mt-5 w-full h-full">
+        <h1 class="text-4xl font-bold">OceanBody</h1>
+    </div>
+    <div id="explication" class="absolute h-full w-full flex items-center justify-end z-5">
+        <div id="text_explication" class="mr-10 p-3 w-1/4 min-h-[70vh] max-h-[90vh] rounded-md bg-slate-900 flex">
+        </div>
+    </div>
+</body>
+</html>
